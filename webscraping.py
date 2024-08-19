@@ -1,1 +1,1 @@
-Hello what the sigma
+print ("Hello world")
