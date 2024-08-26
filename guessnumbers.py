@@ -22,10 +22,12 @@ while True:
 	points += 1
 	if guessed.isdigit():
 		guessed = int(guessed)
-
-		if guessed == randoms:
-			print ("You have guessed it in", points, "guesses")
-			break
-		else:
-			print ("Wrong..")
+	else:
+		print ("Enter a number next time")
+		continue
+	if guessed == randoms:
+		print ("You have guessed it in", points, "guesses")
+		break
+	else:
+		print ("Wrong..")
 
