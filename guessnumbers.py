@@ -18,7 +18,7 @@ print (randoms)
 points = 0
 
 while True:
-	guessed = input ("Enter your guess ")
+	guessed = input ("Make a guess ")
 	points += 1
 	if guessed.isdigit():
 		guessed = int(guessed)
