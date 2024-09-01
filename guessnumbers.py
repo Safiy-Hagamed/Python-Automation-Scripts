@@ -26,6 +26,7 @@ while True:
 		print ("Enter a number next time")
 		continue
 	if guessed == randoms:
+		print ("Correct..")
 		print ("You have guessed it in", points, "guesses")
 		break
 	else:
